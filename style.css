@@ -1,0 +1,268 @@
+/* font-family: 'Abel', sans-serif;
+font-family: 'Chivo', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box;
+}
+
+
+
+header nav {
+    padding-top: 22px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0px 30px;
+}
+
+header nav ul li a {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(170, 170, 170, 1);
+}
+
+section .fil .photo {
+    background: url(./img/IMAGE\ \(1\).png) no-repeat center / cover;
+    text-align: center;
+    padding-top: 264px;
+    padding-bottom: 252px;
+    margin-top: 108px;
+}
+
+section .fil .photo h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Chivo', sans-serif;
+    padding-bottom: 17px;
+}
+
+section .fil .photo p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0, 21px;
+    font-family: 'Chivo', sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+section .text .box {
+    background: url(./img/IMAGE\ \(2\).png) no-repeat center / cover;
+    text-align: center;
+    padding: 209px 0px;
+    margin-top: 34px;
+    margin-bottom: 17px;
+}
+
+section .text .box h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Chivo', sans-serif;
+}
+
+section .text .box p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0, 21px;
+    font-family: 'Chivo', sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+section .sand .boxx {
+    background: url("./img/IMAGE (3).png") no-repeat center / cover;
+    padding: 192px 0px;
+}
+
+section .sand .boxxx {
+    background: url("./img/IMAGE (4).png") no-repeat center / cover;
+    padding: 192px 0px;
+}
+
+section .sand .boxx h2{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+section .sand .boxx p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0,13px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Chivo', sans-serif;
+}
+
+section .sand .boxxx h2{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+section .sand .boxxx p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0,13px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Chivo', sans-serif;
+}
+
+section .sold .boks{
+    background: url("./img/IMAGE (6).png")  no-repeat center / cover;
+    margin: 34px 0px;
+    padding: 118px 0px;
+}
+
+section .sold .boks h2{
+    padding-bottom: 6px;
+    font-weight: 4000;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Chivo', sans-serif;
+}
+
+section .sold .boks p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0,13px;
+}
+
+footer{
+    padding-top: 100px;
+}
+
+footer img{
+    width: auto;
+    margin: 7px 0px;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 0,38px;
+    font-family: 'Abel', sans-serif;
+    padding-top: 15px;
+}
+
+/* media_screen */
+
+/* xl - 1200  */
+
+/* lg - 1199px dan - 992px gacha */
+
+@media (max-width: 1199px){
+    header nav ul li {
+        margin: 0px 25px;
+    }
+}
+
+/* md - 991px dan - 768px gacha  */
+
+@media (max-width: 991px) {
+    header nav img{
+        width: auto;
+    }
+    header nav ul li {
+        margin: 0px 45px;
+        padding-top: 15px;
+    }
+    section .sand .boxx {
+        margin: 30px 0px;
+    }
+}
+
+/* sm - 767px dan - 576px gacha */
+
+@media (max-width: 767px){
+    header nav ul li {
+        margin: 0px 22px;
+        padding-top: 15px;
+    }
+}
+
+/* col/xs - 575px = 320px   dan - gacha */
+
+@media (max-width: 575px) {
+    header nav ul {
+        flex-direction: column;
+    }
+    ol, ul {
+        padding: 0;
+    }
+    section .fil .photo {
+        padding: 70px;
+    }
+    section .fil .photo h1 {
+        font-size: 17px;
+        line-height: 5px;
+        padding-bottom: 3px;
+    }
+    section .fil .photo p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+    section .text .box {
+        padding: 70px;
+    }
+    section .text .box h1 {
+        font-size: 13px;
+        line-height: 5px;
+        padding-bottom: 3px;
+    }
+    section .text .box p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+    section .sand .boxx {
+        padding: 50px 0px;
+    }
+    section .sand .boxx h2 {
+        padding-bottom: 0px;
+        font-size: 17px;
+        line-height: 9px;
+    }
+    section .sand .boxxx {
+        padding: 50px 0px;
+    }
+    section .sand .boxxx h2 {
+        padding-bottom: 0px;
+        font-size: 17px;
+        line-height: 9px;
+    }
+    section .sold .boks {
+        padding: 34px 0px;
+    }
+    section .sold .boks h2 {
+        font-size: 12px;
+        line-height: 5px;
+    }
+    section .sold .boks p {
+        font-size: 6px;
+        line-height: 2px;
+    }
+}
